@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataflex SME</title>
+    <link rel="stylesheet" href="smeRg.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light navigation">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="">
+        </a>
+    </nav>
+    
+    <section class="bg-1">
+        <div class="container">
+            <form>
+                <b><h1>Bussiness Description</h1></b>
+            <div class="row jumbotron box8">
+                <h3>Describe what exactly your bussiness does</h3>
+                <div id="fieldset-biz-industry" role="group" class="form-group">
+                    <label id="fieldset-biz-industry__BV_label_" for="input-biz-industry" class="d-block">
+                        Business Industry
+                    </label>
+                    <div>
+                        <span>
+                            <div class="cs-select is-invalid">
+                                <select name="business_industry" class="form-control">
+                                    <option value="">Select business industry</option>
+                                     <option value="tradings">Trading</option> 
+                                     <option value="manufacturing">Manufacturing</option> 
+                                     <option value="general_services">General Services</option>
+                                      <option value="specialised_services">Specialised Services</option>
+                                       <option value="agriculture">Agriculture</option>
+                                    </select>
+                                </div> 
+                               
+                        </span><!----><!----><!---->
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div id="fieldset-specific-biz" role="group" class="form-group">
+                        <label id="fieldset-specific-biz__BV_label_" for="input-specific-biz" class="d-block">
+                            Specific business area
+                        </label>
+                        <div>
+                            <span>
+                                <div class="cs-select">
+                                    <select name="specific_business_area" class="form-control">
+                                        <option value="0">
+                                            Select specific business area
+                                        </option>
+                                        <option>
+                                            Trading
+                                        </option>
+                                        <option>
+                                            manufacturing
+                                        </option>
+                                        <option>
+                                            General Services
+                                        </option>
+                                        <option>
+                                            Specialised Services
+                                        </option>
+                                        <option>
+                                            Agriculture
+                                        </option>
+                                     </select>
+                                    </div> 
+                                    <span class="is-invalid" style="display: none;">
+                                    </span>
+                                </span><!----><!----><!---->
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-12">
+                    <div id="fieldset-description" role="group" class="form-group">
+                        <label id="fieldset-description__BV_label_" for="input-description" class="d-block">
+                            Business Description
+                        </label>
+                        <div>
+                            <span><textarea id="input-description" name="description" placeholder="Describe what exactly your business does" wrap="soft" class="form-control" style="resize: none; overflow-y: scroll; height: 146px;" data-gramm="false" wt-ignore-input="true"></textarea> 
+                                <span class="is-invalid" style="display: none;">
+                                </span>
+                            </span><!----><!----><!---->
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                
+                <div class="col-sm-6 form-group">
+                    <label for="pass">Password</label>
+                    <input type="Password" name="password" class="form-control" id="pass" placeholder="Enter your password." required>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <label for="pass2">Confirm Password</label>
+                    <input type="Password" name="cnf-password" class="form-control" id="pass2" placeholder="Re-enter your password." required>
+                </div>
+                
+                
+                <div class="col-md-12 text-center"><span class="small mr-2">
+                    I (Business Name) hereby certify that the information provided to the best of my knowledge is accurate. I hereby grant SMEDAN permission to access and obtain my business details and upload same for the purpose of the MMRP programme. Such information so obtained can be made available for entrepreneurship supports and I can be contacted afterwards if the needs arise.
+                    </span> <label><input type="checkbox" name="verify_accept" style="vertical-align: middle;"></label>
+                </div>
+                <br><br><br>
+
+                <div class="col-sm-12 form-group mb-0">
+                    <a href="package.html">
+                        <button type="button" class="btn btn-primary float-right"><b>Submit / Payment</b></button>
+                    </a>
+                </div>
+    
+                <a href="smeReg.html"> 
+                    <button type="button" class="btn px-md-5 btn-light" >
+                    Previous
+                </button></a>
+            
+
+            </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

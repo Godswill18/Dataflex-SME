@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="smeRg.css">
+    <title>Dataflex SME</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light navigation">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="">
+        </a>
+    </nav>
+    
+    <section class="bg-1">
+        <div class="container">
+    <form>
+
+        <div class="row jumbotron box8">
+            <b><h1>Business Owner</h1></b>
+                            
+                <div>
+                    
+                    <p>Who owns this business?</p>
+
+                    <div>
+                        <label id="fieldset-name__BV_label_" for="input-name" class="d-block mb-0">Full Name</label>
+                        <span class="small mr-2">
+                            Same as business name
+                        </span> <input type="checkbox" style="vertical-align: middle;">
+                        <input id="input-name" name="name" type="text" placeholder="Enter full name (Surname first)" autocomplete="off" class="form-control" required>
+
+                    </div>
+
+                        <div class="form-group row">
+                            <div class="col-md-12">
+                                <div id="fieldset-position" role="group" class="form-group">
+                                    <label id="fieldset-position__BV_label_" for="input-position" class="d-block">Position</label>
+                                    <div>
+                                        <span><input id="input-position" name="position" type="text" placeholder="Enter your position at the company" autocomplete="off" class="form-control" required>
+                                            <span class="is-invalid" style="display: none;">
+                                            </span>
+                                        </span><!----><!----><!---->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-md-12">
+                                <div id="fieldset-gender" role="group" class="form-group">
+                                    <label id="fieldset-gender__BV_label_" for="input-gender" class="d-block">Gender</label>
+                                    <div>
+                                        <span>
+                                            <div class="cs-select">
+                                                <select name="gender" class="form-control">
+                                                    <option value="">Select business owner’s gender</option>
+                                                    <option value="Male">Male</option> 
+                                                    <option value="Female">Female</option>
+                                                    </select>
+                                                </div>
+                                                <span class="is-invalid" style="display: none;"></span>
+                                        </span><!----><!----><!---->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-md-12">
+                                <div id="fieldset-age" role="group" class="form-group">
+                                    <label id="fieldset-age__BV_label_" for="input-age" class="d-block">Age</label>
+                                    <div>
+                                        <span>
+                                            <div class="cs-select is-invalid">
+                                                <select name="age" class="form-control" required>
+                                                    <option value="">Select Your Age Range</option> 
+                                                    <option value="91638d3f-a2b7-4822-e5a1-ea79b0008f3f">15-20</option>
+                                                    <option value="91638d3f-a6co-47y0-8e94-723f3d89e10d">20-25</option>
+                                                    <option value="91638d3g-a91z-gre9-9y6b-79c497f025c8">26-29</option>
+                                                    <option value="91638d2r-a2y9-a84e-awdc-58ek27d24f40">30-40</option>
+                                                    <option value="91638e2y-a1y9-a04a-awdc-5zex27d2wc40">50+</option>
+                                                </select>
+                                            </div>
+                                            </span><!----><!----><!---->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-md-12">
+                                <div id="fieldset-home-address" role="group" class="form-group">
+                                                    <label id="fieldset-home-address__BV_label_" for="input-home-address" class="d-block mb-0">Home address</label>
+                                    <div>
+                                                        <label class="mb-2"><span class="small mr-2">
+                                            Same as business address
+                                        </span> 
+                                        <input type="checkbox" style="vertical-align: middle;">
+                                        </label>
+                                        <span>
+                                            <input id="input-home-address" name="home_address" type="text" placeholder="Enter your home address" autocomplete="off" class="form-control" required> <span class="is-invalid" style="display: none;">
+                                            </span>
+                                        </span><!----><!----><!---->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div id="fieldset-phone-number-2" role="group" class="form-group">
+                                        <label id="fieldset-phone-number-2__BV_label_" for="input-phone-number-2" class="d-block mb-0">Phone number</label>
+                                <div>
+                                        <label class="mb-2"><span class="small mr-2">
+                                        Same as business phone
+                                        </span> <input type="checkbox" style="vertical-align: middle;"></label> <span>
+                                        <input id="input-phone-number-2" name="phone_number" type="text" placeholder="Enter phone number" autocomplete="off" class="form-control" required> <span class="is-invalid" style="display: none;">
+                                        </span>
+                                        </span><!----><!----><!---->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div id="fieldset-email-address" role="group" class="form-group">
+                                <label id="fieldset-email-address__BV_label_" for="input-email-address" class="d-block mb-0">Email address</label>
+                                <div>
+                                    <label class="mb-2"><span class="small mr-2">Same as business email</span>
+                                        <input type="checkbox" style="vertical-align: middle;"></label> 
+                                        <span><input id="input-email-address" name="email" type="text" placeholder="Enter email address" autocomplete="off" class="form-control" required> <span class="is-invalid" style="display: none;"></span>
+                                        </span><!----><!----><!---->
+                                    </div>
+                                </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div id="fieldset-bvn" role="group" class="form-group">
+                                <label id="fieldset-bvn__BV_label_" for="input-bvn" class="d-block">Bank Verification Number</label>
+                                <div>
+                                    <span><input id="input-bvn" name="bvn" type="text" placeholder="Enter business owner’s BVN here (Optional)" autocomplete="off" class="form-control"> <span class="is-invalid" style="display: none;"></span>
+                                    </span><!----><!----><!---->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                                <span class="small mr-2">Opt me in for SMEDAN supported financial services</span> 
+                            <label style="margin: 0px; vertical-align: middle;">
+                                <input type="checkbox" name="opt-in" checked="checked">
+                            </label>
+                        </div> <br><br>
+
+                        <div class="col-sm-12 form-group mb-0">
+                            <a href="businessDES.html">
+                                <button type="button" class="btn btn-primary float-right">Next</button>
+                               </a>
+                        </div>
+            
+                        <a href="smeReg.html"> 
+                            <button type="button" class="btn px-md-5 btn-light" >
+                            Previous
+                        </button></a>
+
+                </div>
+            </form>
+        </div>
+        </div>
+        
+
+    </section>
+             
+  
+        
+    </div>
+</body>
+</html>
